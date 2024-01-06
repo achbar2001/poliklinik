@@ -32,7 +32,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && $button_disabled != "disabled") {
             $no_antrian = $row['max_no'] + 1;
 
             // Insert the new poli registration into the daftar_poli table
-            $insert_query = "INSERT INTO daftar_poli (id_pasien, id_jadwal, keluhan, no_antrian, tanggal) VALUES ('".$_SESSION['id_pasien']."', '$id_jadwal', '$keluhan', '$no_antrian', '$tanggal', NOW())";
+            $insert_query = "INSERT INTO daftar_poli (id_pasien, id_jadwal, keluhan, no_antrian, tanggal) VALUES ('".$_SESSION['id_pasien']."', '$id_jadwal', '$keluhan', '$no_antrian', NOW())";
             if (mysqli_query($mysqli, $insert_query)) {
                 echo "<script>alert('No antrian anda adalah $no_antrian');</script>";
                 $button_disabled = "disabled";

@@ -1,7 +1,7 @@
 <?php
 
 $databaseHost = 'localhost';
-$databaseName = 'siobat';
+$databaseName = 'poli_bk';
 $databaseUsername = 'root';
 $databasePassword = '';
 
@@ -11,5 +11,3 @@ $mysqli = mysqli_connect(
     $databasePassword,
     $databaseName
 );
-
-?>
