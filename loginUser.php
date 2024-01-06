@@ -37,7 +37,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 <div class="card-body">
                     <div class="row d-flex justify-content-center align-items-center px-5 py-4">
                         <div class="col lg-6">
-                            <img src="images/login.svg" class="img-fluid" alt="login-pic">
+                            <img src="images/logo1.png" class="img-fluid" alt="login-pic">
                         </div>
                         <div class="col-lg-6">
                             <h1 class="text-center">Login</h1>
@@ -68,7 +68,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                                 <p class="mt-3">Login sebagai dokter? <a style="text-decoration: none;" href="index.php?page=loginDokter">Ya, Saya Dokter</a></p>
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
